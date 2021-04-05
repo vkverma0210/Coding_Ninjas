@@ -15,20 +15,6 @@ int comman_Interval(int start[], int end[], int n)
     sort(start, start + n);
     sort(end, end + n);
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << start[i] << " ";
-    }
-
-    cout << endl;
-
-    for (int i = 0; i < n; i++)
-    {
-        cout << end[i] << " ";
-    }
-
-    cout << endl;
-
     int i = 0, j = 0, m = n;
 
     while (i < m && j < n)
